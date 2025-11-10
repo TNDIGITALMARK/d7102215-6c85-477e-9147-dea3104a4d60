@@ -386,3 +386,30 @@ label {
   border-radius: 50%;
   box-shadow: var(--shadow-card);
 }
+
+/* ============================================
+   LIGHT TEXT TITLE UTILITIES
+   For titles on dark backgrounds (hero, CTA, footer)
+   ============================================ */
+
+.title-light {
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title-light-hero {
+  color: #ffffff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.title-light-cta {
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.title-light-footer {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+}

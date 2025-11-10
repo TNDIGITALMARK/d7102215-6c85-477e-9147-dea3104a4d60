@@ -34,7 +34,7 @@ export function Footer() {
 
           {/* About Us */}
           <div>
-            <h4 className="font-semibold mb-4 text-sm uppercase tracking-wide">About Us</h4>
+            <h4 className="title-light-footer font-semibold mb-4 text-sm uppercase tracking-wide">About Us</h4>
             <ul className="space-y-2 text-sm opacity-80">
               <li>
                 <Link href="/services" className="hover:text-[hsl(var(--accent))] transition-colors">
@@ -51,7 +51,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4 text-sm uppercase tracking-wide">Quick Links</h4>
+            <h4 className="title-light-footer font-semibold mb-4 text-sm uppercase tracking-wide">Quick Links</h4>
             <ul className="space-y-2 text-sm opacity-80">
               <li>
                 <Link href="/" className="hover:text-[hsl(var(--accent))] transition-colors">
@@ -63,7 +63,7 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold mb-4 text-sm uppercase tracking-wide">Contact</h4>
+            <h4 className="title-light-footer font-semibold mb-4 text-sm uppercase tracking-wide">Contact</h4>
             <p className="text-sm opacity-80 leading-relaxed">
               Available 24/7 for emergency repairs
             </p>

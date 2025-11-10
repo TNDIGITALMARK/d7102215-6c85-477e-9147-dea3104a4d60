@@ -43,7 +43,7 @@ export default function HomePage() {
         {/* Hero Content */}
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight uppercase tracking-tight">
+            <h1 className="title-light-hero text-5xl md:text-6xl mb-6 leading-tight uppercase tracking-tight">
               CRACKS GONE.<br />
               CLARITY RESTORED
             </h1>
@@ -211,7 +211,7 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-16 bg-[hsl(var(--primary))] text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4 uppercase">
+          <h2 className="title-light-cta text-4xl font-bold mb-4 uppercase">
             READY TO RESTORE YOUR CLARITY?
           </h2>
           <p className="text-xl mb-8 opacity-90">
