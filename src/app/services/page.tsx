@@ -75,7 +75,7 @@ export default function ServicesPage() {
       {/* Hero Section */}
       <section className="bg-[hsl(var(--primary))] text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-extrabold mb-6 uppercase tracking-tight">
+          <h1 className="title-light-hero text-5xl font-extrabold mb-6 uppercase tracking-tight">
             Our Services & Pricing
           </h1>
           <p className="text-xl max-w-3xl mx-auto opacity-90">
@@ -256,7 +256,7 @@ export default function ServicesPage() {
       {/* CTA Section */}
       <section className="py-16 bg-[hsl(var(--primary))] text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4 uppercase">
+          <h2 className="title-light-cta text-4xl font-bold mb-4 uppercase">
             Ready to Get Started?
           </h2>
           <p className="text-xl mb-8 opacity-90">

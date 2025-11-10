@@ -108,7 +108,7 @@ export default function BookingPage() {
       {/* Hero Section */}
       <section className="bg-[hsl(var(--primary))] text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-extrabold mb-4 uppercase tracking-tight">
+          <h1 className="title-light-hero text-5xl font-extrabold mb-4 uppercase tracking-tight">
             Book Your Appointment
           </h1>
           <p className="text-xl opacity-90">
