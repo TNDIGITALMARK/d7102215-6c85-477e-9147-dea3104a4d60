@@ -281,7 +281,7 @@ button {
 
 .btn-primary {
   background-color: hsl(var(--accent));
-  color: hsl(var(--accent-foreground));
+  color: #ffffff;
   padding: 0.75rem 2rem;
   border-radius: var(--radius-button);
   text-transform: uppercase;
@@ -290,12 +290,66 @@ button {
   font-weight: 600;
   box-shadow: var(--shadow-button);
   transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
   background-color: hsl(var(--primary));
+  color: #ffffff;
   box-shadow: var(--shadow-hover);
   transform: translateY(-2px);
+}
+
+/* ============================================
+   BUTTON TEXT VISIBILITY - CRITICAL STYLES
+   Ensures all button text is visible on colored backgrounds
+   ============================================ */
+
+/* Primary button text - always white */
+.btn-primary,
+button.btn-primary,
+a.btn-primary,
+Link.btn-primary {
+  color: #ffffff !important;
+}
+
+/* All buttons with colored backgrounds need white text */
+button[class*="bg-[hsl(var(--accent))]"],
+button[class*="bg-[hsl(var(--primary))]"],
+a[class*="bg-[hsl(var(--accent))]"],
+a[class*="bg-[hsl(var(--primary))]"] {
+  color: #ffffff !important;
+}
+
+/* Specific Tailwind background utility classes with white text */
+.bg-\[hsl\(var\(--accent\)\)\],
+.bg-\[hsl\(var\(--primary\)\)\],
+.bg-\[hsl\(var\(--accent\)\)\]\/90 {
+  color: #ffffff !important;
+}
+
+/* Ensure hover states maintain white text on colored backgrounds */
+.bg-\[hsl\(var\(--accent\)\)\]:hover,
+.bg-\[hsl\(var\(--primary\)\)\]:hover {
+  color: #ffffff !important;
+}
+
+/* Link buttons with white background - use primary text color */
+a.bg-white,
+button.bg-white {
+  color: hsl(var(--primary)) !important;
+}
+
+a.bg-white:hover,
+button.bg-white:hover {
+  color: hsl(var(--primary)) !important;
+}
+
+/* Generic button text on dark backgrounds */
+button:not(.bg-white):not([class*="border-"]),
+a:not(.bg-white):not([class*="border-"]) {
+  color: #ffffff;
 }
 
 /* ============================================
