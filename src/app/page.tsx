@@ -218,7 +218,7 @@ export default function HomePage() {
             Same-day service available. Call now or book online.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/booking" className="bg-[hsl(var(--accent))] hover:bg-[hsl(var(--accent))]/90 px-8 py-4 rounded font-semibold uppercase text-sm transition-all duration-300">
+            <Link href="/booking" className="bg-[hsl(var(--accent))] text-white hover:bg-[hsl(var(--accent))]/90 px-8 py-4 rounded font-semibold uppercase text-sm transition-all duration-300">
               BOOK APPOINTMENT
             </Link>
             <a href="tel:+18005551234" className="bg-white text-[hsl(var(--primary))] hover:bg-gray-100 px-8 py-4 rounded font-semibold uppercase text-sm transition-all duration-300">

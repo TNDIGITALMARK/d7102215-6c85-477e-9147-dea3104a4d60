@@ -265,7 +265,7 @@ export default function ServicesPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/booking"
-              className="bg-[hsl(var(--accent))] hover:bg-[hsl(var(--accent))]/90 px-8 py-4 rounded font-semibold uppercase text-sm transition-all duration-300"
+              className="bg-[hsl(var(--accent))] text-white hover:bg-[hsl(var(--accent))]/90 px-8 py-4 rounded font-semibold uppercase text-sm transition-all duration-300"
             >
               Book Online Now
             </Link>
